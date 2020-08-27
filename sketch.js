@@ -41,7 +41,7 @@ function setup() {
 
 	 mang07 = new MANGO(500,500,56);
 
-	 stone = new STONE(140,550);
+	 stone = new STONE(140,550,30);
 
 	 sling = new SHOT(stone.body,{x:140,y:550});
 
