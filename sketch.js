@@ -93,7 +93,7 @@ function collide(lstone,lmango){
 	stonebodypositon = lmango.body.position;
 
 	var distance = dist(stonebodypositon.x,stonebodypositon.y,mangobodypositon.x,mangobodypositon.y);
-		if (distance<-lmango.r+lstone.r){
+		if (distance<=lmango.r+lstone.r){
 			Matter.Body.setStatic(lmango.body,false);
 		}
 
